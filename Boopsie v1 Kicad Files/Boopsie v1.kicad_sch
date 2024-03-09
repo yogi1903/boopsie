@@ -1447,16 +1447,16 @@
 		(uuid "23e15ef2-5571-4f2c-9274-ff6f3171ae23")
 	)
 	(junction
+		(at 115.57 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ef478bd-dacf-431a-ba77-2ea822cced86")
+	)
+	(junction
 		(at 125.73 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "465cd295-7603-4499-ad2a-9fda5cce3980")
-	)
-	(junction
-		(at 161.29 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "625c2aac-1ddd-43ec-82f9-fe57ad292e7b")
 	)
 	(junction
 		(at 158.75 71.12)
@@ -1746,6 +1746,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 114.3) (xy 198.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38316986-08c1-44a8-9ceb-616905bcc47f")
+	)
+	(wire
+		(pts
 			(xy 105.41 72.39) (xy 105.41 68.58)
 		)
 		(stroke
@@ -1976,6 +1986,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 114.3) (xy 115.57 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a03e49d-1be1-4432-ba9f-58f868632aa8")
+	)
+	(wire
+		(pts
 			(xy 156.21 104.14) (xy 156.21 102.87)
 		)
 		(stroke
@@ -2116,7 +2136,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 113.03) (xy 115.57 120.65)
+			(xy 115.57 113.03) (xy 115.57 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2196,16 +2216,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 111.76) (xy 161.29 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdd07710-7269-4d4f-a085-d27f98286618")
-	)
-	(wire
-		(pts
 			(xy 156.21 102.87) (xy 193.04 102.87)
 		)
 		(stroke
@@ -2236,17 +2246,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 87.63) (xy 161.29 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea483f39-6e38-4d1d-a82f-1410d49ba9cc")
-	)
-	(wire
-		(pts
-			(xy 198.12 113.03) (xy 198.12 87.63)
+			(xy 198.12 87.63) (xy 198.12 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2276,13 +2276,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 113.03) (xy 198.12 113.03)
+			(xy 161.29 87.63) (xy 161.29 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffd12b78-ba94-4646-b52b-df4cfdb59462")
+		(uuid "fc6f5f78-6b8e-4bd1-9020-1b6e8043216e")
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
